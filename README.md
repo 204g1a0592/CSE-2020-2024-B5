@@ -2,7 +2,7 @@
 <h1>TITLE: Chat-Bot for Travel Assistance</h1>
 
 #Team Members
-|S.NO|  Student Name            | Email                 |
+|S.NO|  Student Name            |           Email       |
 | :- |     :---:                |      ---:             |
 | 1  | K Samyuktha              | 204g1a0592@srit.ac.in |
 | 2  | N Ranga Dhamini          | 204g1a0579@srit.ac.in |
