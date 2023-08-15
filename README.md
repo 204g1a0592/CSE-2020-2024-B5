@@ -1,5 +1,5 @@
-<h3>CSE-2020-24-Batch-B4</h3>
-<h1>TITLE: Intelligence Faculty appraisal system</h1>
+<h3>CSE-2020-24-Batch-B5</h3>
+<h1>TITLE: Chat-Bot for Trave Assistance</h1>
 
 
 |S.NO|  Student Name            |     Email             |
