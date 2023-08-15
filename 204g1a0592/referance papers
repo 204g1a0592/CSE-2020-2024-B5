@@ -1,1 +1,30 @@
+<h3>Chatbots: An overview. Types, Architecture, Tools and Future Possibilities</h3>
+
+<h4><p>
+  This paper explains about the different types of architecture and available framesworks to develop a chatbot.
+  Different type of chatbots are:
+  Knowledge domain
+  Service Provided
+  Goal
+  Response generation method
+  <h5>Knowledge domain</h5> In Knowledge domain we have (based on the  amount of data they are trained upon)
+      Open Domain: about general topics and respond appropriately. Not restricted to a single purpose.    
+      Closed Domain:  focused on a particular knowledge domain and might fail to respond to other questions. Our chatbot is closed domain.
+  <h5>Service Provided:</h5>Amount of intimate interaction that takes place and hence is also dependent upon the task the bot is performing.
+      InterPersonal
+      InteraPersonal
+      Inter-agent
+  <h5>Goals:</h5>Here the bots are classified based on the primary goal they aim to achieve.
+      Informative
+      Chatbased/conversational
+      Task Based
+      Input processing and response generation model i.e Hybrid
+ It also explained about the architecture. What are the steps and order to develop a chatbot
+ A chatbot consists of four stages sequential ,the input is taken and processed into appropriate format. second, named entities are extracted and intent 
+ is discovered. These are used to generate possible responses is generated or multiple responses are generated or selected and finally the most appropriate 
+ response is presented to the user.
+ Chunking, Sentence Boundary Detection, Sentence Parsing, Part of Speech Tagging are some of the basic input processing algorithms.
+ The papers explained about the future possiblities in chatbot and challenges in it.
+ The future possibilities include:Context Awareness, Intentions driven respones, Narration and continoues of respone are some possiblities.
+ The about key points helped to classify the type the chatbot we need to implement.
 
