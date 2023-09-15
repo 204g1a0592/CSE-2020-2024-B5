@@ -1,30 +1,25 @@
-<h3>Chatbots: An overview. Types, Architecture, Tools and Future Possibilities</h3>
+<h3>Decision tree based automated prediction of infant low birth weight</h3>
 
 <h4><p>
-  This paper explains about the different types of architecture and available framesworks to develop a chatbot.
-  Different type of chatbots are:
-  Knowledge domain
-  Service Provided
-  Goal
-  Response generation method
-  <h5>Knowledge domain</h5> In Knowledge domain we have (based on the  amount of data they are trained upon)
-      Open Domain: about general topics and respond appropriately. Not restricted to a single purpose.    
-      Closed Domain:  focused on a particular knowledge domain and might fail to respond to other questions. Our chatbot is closed domain.
-  <h5>Service Provided:</h5>Amount of intimate interaction that takes place and hence is also dependent upon the task the bot is performing.
-      InterPersonal
-      InteraPersonal
-      Inter-agent
-  <h5>Goals:</h5>Here the bots are classified based on the primary goal they aim to achieve.
-      Informative
-      Chatbased/conversational
-      Task Based
-      Input processing and response generation model i.e Hybrid
- It also explained about the architecture. What are the steps and order to develop a chatbot
- A chatbot consists of four stages sequential ,the input is taken and processed into appropriate format. second, named entities are extracted and intent 
- is discovered. These are used to generate possible responses is generated or multiple responses are generated or selected and finally the most appropriate 
- response is presented to the user.
- Chunking, Sentence Boundary Detection, Sentence Parsing, Part of Speech Tagging are some of the basic input processing algorithms.
- The papers explained about the future possiblities in chatbot and challenges in it.
- The future possibilities include:Context Awareness, Intentions driven respones, Narration and continoues of respone are some possiblities.
- The about key points helped to classify the type the chatbot we need to implement.
-
+1.Low birth weight (LBW) is the single most important factor determining the survival chances of an infant and predicting this LBW based on the maternal factors 
+through the data engineering can be another contribution to the medical diagnosis. 
+2.The birth weight of an infant is the first weight recorded after birth, ideally measured within the first hours after birth, before significant postnatal weight
+loss has occurred. Low birth weight (LBW) is defined as a birth weight of less than 2500 g (up to and including 2499 g), as per the World Health Organization (WHO).
+3.Early detection or prediction of output of LBW babies in the pregnancies can help to prevent theLBW or can increase the survival chance of the LBW babies by 
+providing extra antenatal care for mother.
+4.Classification and regression are the process in machine learning where classifiers are used without much human intervention.
+In this paper they used Decision Tree:
+Decision tree is a prediction structure in which nodes represent the attributes of the dataset and leaves represents the class distribution. Decision tree learning 
+algorithms use divide and conquer strategy in top-down recursive manner in which root node represents the whole training data which splits into subsets depending on
+the selected attribute values based on the splitting condition.
+Two phases in Decision tree:
+Growing phase
+Pruning phase 
+Pruning is the 
+fundamental process in decision trees, which handles over fitting of data by reducing the size of the tree to avoid complexity. The noise and outliers are
+removed in pruning and the tree is generalized to improve the accuracy of the classification.
+C4.5, Random Tree, Random Forest, Decision Stump, Logistic Model Tree, REP Tree (reduced error pruning tree) and BF Tree. They can mostly handle nominal and
+numeric attributes of the dataset and some of them can handle only numeric attributes. C4.5 partitions the attributes value using a threshold, which 
+handle missing values, and uses Gain ratio as an attribute selection measure to build a decision tree.
+Attributes like age, parity, hemoglobin, initial and last weight, disease control, BMI. There were 2702 observations in the data set. The outcome variable
+in this study had 3 categories such as Normal birth weight (NB) Low birth weight (LB) and High birth weight(HB) used in dataset.
